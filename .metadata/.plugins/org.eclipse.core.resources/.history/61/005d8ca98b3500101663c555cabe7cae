@@ -1,0 +1,33 @@
+package test;
+
+import org.junit.Test;
+
+import clases.TrianguloRectangulo;
+
+import static org.junit.Assert.*;
+
+public class testTrianguloRectanguloTest {
+
+    @Test
+    public void testTrianguloPorDefecto() {
+        TrianguloRectangulo t = new TrianguloRectangulo();
+        assertEquals(1.0, t.geta(), 0.001);
+        assertEquals(1.0, t.getB(), 0.001);
+        assertEquals(0.5, t.area(), 0.001);
+        assertEquals(Math.sqrt(2), t.getC(), 0.001);
+    }
+
+    @Test
+    public void testTrianguloValido() {
+        TrianguloRectangulo t = new TrianguloRectangulo(3, 4);
+        assertEquals(3.0, t.geta(), 0.001);
+        assertEquals(4.0, t.getB(), 0.001);
+        assertEquals(6.0, t.area(), 0.001);
+        assertEquals(5.0, t.getC(), 0.001); 
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testTrianguloInvalido() {
+        new TrianguloRectangulo(0, 4); 
+    }
+}

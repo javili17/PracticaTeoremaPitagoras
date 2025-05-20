@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="test" project="PracticaTeoremaPitagoras" tests="3" started="3" failures="3" errors="0" ignored="0">
+  <testsuite name="test.testTrianguloRectanguloTest" time="0.001" displayname="testTrianguloRectanguloTest" uniqueid="[engine:junit-jupiter]/[class:test.testTrianguloRectanguloTest]">
+    <testcase name="testTrianguloPorDefecto" classname="test.testTrianguloRectanguloTest" time="0.0" displayname="testTrianguloPorDefecto()" uniqueid="[engine:junit-jupiter]/[class:test.testTrianguloRectanguloTest]/[method:testTrianguloPorDefecto()]">
+      <failure>
+        <expected>3.414213562373095</expected>
+        <actual>2.0</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;3.414213562373095&gt; but was: &lt;2.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at test.testTrianguloRectanguloTest.testTrianguloPorDefecto(testTrianguloRectanguloTest.java:18)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="testTrianguloInvalido" classname="test.testTrianguloRectanguloTest" time="0.001" displayname="testTrianguloInvalido()" uniqueid="[engine:junit-jupiter]/[class:test.testTrianguloRectanguloTest]/[method:testTrianguloInvalido()]">
+      <failure>org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)&#13;
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)&#13;
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)&#13;
+	at test.testTrianguloRectanguloTest.testTrianguloInvalido(testTrianguloRectanguloTest.java:37)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="testTrianguloValido" classname="test.testTrianguloRectanguloTest" time="0.0" displayname="testTrianguloValido()" uniqueid="[engine:junit-jupiter]/[class:test.testTrianguloRectanguloTest]/[method:testTrianguloValido()]">
+      <failure>
+        <expected>12.0</expected>
+        <actual>7.0</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;12.0&gt; but was: &lt;7.0&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:70)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:65)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:889)&#13;
+	at test.testTrianguloRectanguloTest.testTrianguloValido(testTrianguloRectanguloTest.java:31)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

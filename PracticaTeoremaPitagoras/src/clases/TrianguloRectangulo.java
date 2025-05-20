@@ -1,0 +1,67 @@
+package clases;
+
+public class TrianguloRectangulo {
+private double a;
+private double b;
+private double c;
+public TrianguloRectangulo() {
+    a = 1;
+    b = 1;
+}
+public TrianguloRectangulo(int a, int b) {
+    this.a=a;
+    this.b=b;
+   
+}
+/**
+ * Calcular el area
+ * @return
+ */
+public double area() {
+    double area = a*b/2;
+    return area;
+}
+/**
+ * Calcular la hipotenusa
+ * @return
+ */
+public double hipotenusa() {
+    double c = Math.sqrt((a*a) + b*b);
+    return c;
+}
+/**
+ * Calcular el perimetro
+ * @return
+ */
+public double perimetro() {
+    double d = a+b+c;
+    return d;
+}
+/**
+ * Getters
+ * @return
+ */
+public double geta() {
+    return a;
+}
+public double getB() {
+    return b;
+}
+
+public double getC() {
+    return c;
+}
+
+
+/** 
+ * toString
+ * 
+ */
+@Override
+public String toString() {
+    return "TrianguloRectangulo [a=" + a + ", b=" + b + ", c=" + c + "]";
+}
+}
+
+
+

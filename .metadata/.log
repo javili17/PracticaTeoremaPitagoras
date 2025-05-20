@@ -18,3 +18,195 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.junit 4 4 2025-05-20 17:04:41.125
+!MESSAGE Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:74)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	... 1 more
+Root exception:
+Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.junit 4 4 2025-05-20 17:04:41.159
+!MESSAGE Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:74)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	... 1 more
+Root exception:
+Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.junit 4 4 2025-05-20 17:04:41.233
+!MESSAGE Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:74)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	... 1 more
+Root exception:
+Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.junit 4 4 2025-05-20 17:04:41.272
+!MESSAGE Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:74)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	... 1 more
+Root exception:
+Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.junit 4 4 2025-05-20 17:04:41.319
+!MESSAGE Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:74)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	... 1 more
+Root exception:
+Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+
+!ENTRY org.eclipse.jdt.junit 4 4 2025-05-20 17:04:41.364
+!MESSAGE Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:74)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+Caused by: Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	... 1 more
+Root exception:
+Java Model Exception: Error in Java Model (code 969): testTrianguloRectanguloTest [in [Working copy] testTrianguloRectanguloTest.java [in test [in src [in PracticaTeoremaPitagoras]]]] does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:546)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:589)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:233)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildrenOfType(JavaElement.java:247)
+	at org.eclipse.jdt.internal.core.SourceType.getMethods(SourceType.java:499)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectDeclaredMethodNames(TestSearchEngine.java:120)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.collectMethodNames(TestSearchEngine.java:88)
+	at org.eclipse.jdt.internal.junit.util.TestSearchEngine.lambda$1(TestSearchEngine.java:72)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
